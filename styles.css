@@ -3,6 +3,9 @@ body, html {
     margin: 0;
     font-family: Arial, sans-serif;
     background: linear-gradient(to bottom left, #08152b, #222);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .container {
@@ -35,7 +38,7 @@ footer {
 }
 
 .projects-grid li {
-    background-color: #333;
+    border: 2px solid #333;
     border-radius: 5px;
 }
 
