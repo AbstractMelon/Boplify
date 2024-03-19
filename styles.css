@@ -39,22 +39,22 @@ footer {
   gap: 10px;
   padding: 0;
   margin: 0;
-  list-style-type: none;
 }
 
-.projects-grid li {
+.project-item {
   border: 2px solid #333; /* Dark blue */
   border-radius: 10px;
-}
-
-.projects-grid li a {
-  display: block;
-  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
   color: #fff;
   text-decoration: none;
+  transition: background-color 0.3s, transform 0.3s;
 }
 
-.projects-grid li a:hover {
+.project-item:hover {
   background-color: #171717; /* Dark grey */
   transform: scale(1.15);
 }
+
