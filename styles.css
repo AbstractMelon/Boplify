@@ -8,7 +8,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #000033; /* Dark blue */
+  background: rgb(1,0,15);
+  background: linear-gradient(58deg, rgba(1,0,15,1) 28%, rgba(0,3,64,1) 84%, rgba(8,14,129,1) 92%, rgba(0,99,255,1) 100%);
   color: white;
   font-family: 'Archivo Black', sans-serif;
 }
