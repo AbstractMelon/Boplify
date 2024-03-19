@@ -1,5 +1,4 @@
 body, html {
-    height: 100%;
     margin: 0;
     font-family: Arial, sans-serif;
     background: linear-gradient(to bottom left, #08152b, #222);
@@ -17,7 +16,8 @@ body, html {
     background-color: #333;
     border-radius: 12px;
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.4);
-    width: 100%; /* Adjusted width */
+    width: 80%; /* Adjusted width */
+    max-width: 1000px; /* Adjusted max-width */
 }
 
 header {
@@ -32,7 +32,7 @@ footer {
 
 .projects-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Adjusted grid item width */
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Adjusted grid item width */
     gap: 30px;
     padding: 0;
     margin: 0;
