@@ -1,8 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
 
 body {
-  height: 100vh;
-  width: 100vw;
+  height: 140vh;
   padding: 0;
   margin: 0;
   display: flex;
