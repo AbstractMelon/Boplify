@@ -9,6 +9,15 @@ body, html {
     margin-top: 50px;
     margin-bottom: 50px;
 }
+.wrapper {
+    /* Adjust styles as needed */
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
 
 .container {
     text-align: center;
