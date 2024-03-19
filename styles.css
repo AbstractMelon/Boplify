@@ -2,6 +2,7 @@ body, html {
     height: 100%;
     margin: 0;
     font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom right, #000033, #000022); /* Dark blue/black gradient */
 }
 
 .container {
@@ -9,6 +10,13 @@ body, html {
     justify-content: center;
     align-items: center;
     height: 100%;
+}
+
+.box {
+    background-color: rgba(0, 0, 51, 0.8); /* Dark blue with opacity */
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 80%;
 }
 
 header {
@@ -27,12 +35,9 @@ nav ul li {
 
 footer {
     text-align: center;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+    margin-top: 20px;
 }
 
-/* Style project links */
 nav ul li a {
     display: inline-block;
     padding: 10px 20px;
@@ -45,4 +50,3 @@ nav ul li a {
 nav ul li a:hover {
     background-color: #555;
 }
-
