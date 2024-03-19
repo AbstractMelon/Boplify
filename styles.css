@@ -10,12 +10,12 @@ body, html {
 
 .container {
     text-align: center;
-    padding: 50px;
+    padding: 70px; /* Increased padding */
     background-color: #333;
     border-radius: 12px;
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.4);
     width: 100%;
-    max-width: 500px;
+    max-width: 600px; /* Increased max-width */
 }
 
 header {
@@ -30,7 +30,7 @@ footer {
 
 .projects-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); /* Adjusted grid item width */
     gap: 30px;
     padding: 0;
     margin: 0;
@@ -44,7 +44,8 @@ footer {
 
 .projects-grid li a {
     display: block;
-    padding: 20px;
+    padding: 30px; /* Increased button padding */
+    font-size: 18px; /* Increased font size */
     color: #fff;
     text-decoration: none;
 }
