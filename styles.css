@@ -32,12 +32,13 @@ footer {
 
 .projects-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Adjusted grid item width */
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* Adjusted min width */
     gap: 30px;
     padding: 0;
     margin: 0;
     list-style-type: none;
 }
+
 
 .projects-grid li {
     border: 4px solid #222;
