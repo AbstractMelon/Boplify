@@ -19,7 +19,7 @@
         padding: 20px;
     }
 
-    h1 {
+    h1, h2 {
         text-align: center;
     }
 
@@ -28,14 +28,7 @@
         margin-top: 10px;
     }
 
-    .about-section {
-        background-color: rgba(0, 0, 0, 0.8);
-        border-radius: 10px;
-        padding: 20px;
-        margin-top: 20px;
-    }
-    
-        .info-section {
+    .about-section, .info-section, .key-features {
         background-color: rgba(0, 0, 0, 0.8);
         border-radius: 10px;
         padding: 20px;
@@ -61,16 +54,15 @@
         background-color: #45a049;
     }
 
-    .image-showcase {
+    .image-carousel {
         margin-top: 20px;
-        text-align: center;
+        overflow: hidden;
     }
 
-    .image-showcase img {
+    .image-carousel img {
         width: 100%;
-        max-width: 400px;
-        margin-bottom: 10px;
         border-radius: 5px;
+        margin-bottom: 10px;
     }
 
     .github-link {
@@ -80,18 +72,6 @@
 
     .github-link a {
         color: #ffffff;
-    }
-
-    .key-features {
-        margin-top: 20px;
-        background-color: rgba(0, 0, 0, 0.8);
-        border-radius: 10px;
-        padding: 20px;
-    }
-
-    .key-features h2 {
-        color: #ffffff;
-        text-align: center;
     }
 
     .key-features ul {
@@ -123,24 +103,24 @@
             <li>Efficient resource management for smooth performance</li>
         </ul>
     </div>
+
     <div class="info-section">
-      <div class="image-showcase">
-          <h2>Image Showcase</h2>
-          <img src="../images/boplos1.jpg" alt="BoplOS Screenshot">
-          <img src="../images/boplos2.jpg" alt="BoplOS Screenshot">
-          <img src="../images/boplos3.jpg" alt="BoplOS Screenshot">
-          <img src="../images/boplos4.jpg" alt="BoplOS Screenshot">
-          <img src="../images/boplos5.jpg" alt="BoplOS Screenshot">
-          <img src="../images/boplos6.jpg" alt="BoplOS Screenshot">
-      </div>
-  
-      <a href="#" class="download-button">Download BoplOS</a>
-  
-      <div class="github-link">
-          <p>Find us on GitHub:</p>
-          <a href="https://github.com/abstractmelon/BoplOS" target="_blank">BoplOS Repository</a>
-      </div>
+        <h2>Image Showcase</h2>
+        <div class="image-carousel">
+            <img src="../images/boplos1.jpg" alt="BoplOS Screenshot">
+            <img src="../images/boplos2.jpg" alt="BoplOS Screenshot">
+            <img src="../images/boplos3.jpg" alt="BoplOS Screenshot">
+            <img src="../images/boplos4.jpg" alt="BoplOS Screenshot">
+            <img src="../images/boplos5.jpg" alt="BoplOS Screenshot">
+            <img src="../images/boplos6.jpg" alt="BoplOS Screenshot">
+        </div>
+        <a href="#" class="download-button">Download BoplOS</a>
+        <div class="github-link">
+            <p>Find us on GitHub:</p>
+            <a href="https://github.com/abstractmelon/BoplOS" target="_blank">BoplOS Repository</a>
+        </div>
     </div>
+
     <div class="key-features">
         <h2>Key Features</h2>
         <ul>
